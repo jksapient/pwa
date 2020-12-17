@@ -6,10 +6,12 @@
     {
       "src": "/pwa/icon/fox-icon.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
-  "name": "Awesome fox pictures",
+  "theme_color": "purple",
+  "name": "PWA Demo",
   "short_name": "Foxes",
   "start_url": "/pwa/index.html"
 }
