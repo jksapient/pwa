@@ -19,5 +19,5 @@
   "theme_color": "purple",
   "name": "PWA Demo",
   "short_name": "Foxes",
-  "start_url": "/pwa/index.html"
+  "start_url": "/pwa/"
 }
