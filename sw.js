@@ -5,11 +5,13 @@ self.addEventListener('install', function(e) {
        '/pwa',
        '/pwa/index.html',
        '/pwa/index.js',
-       '/pwa/style.css',
        '/pwa/images/fox1.jpg',
        '/pwa/images/fox2.jpg',
        '/pwa/images/fox3.jpg',
-       '/pwa/images/fox4.jpg'
+       '/pwa/images/fox4.jpg',
+       '/pwa/assets/css/bootstrap.min.css',
+       '/pwa/assets/js/jquery.slim.min.js',
+       '/pwa/assets/js/bootstrap.min.js',
      ]);
    })
  );
