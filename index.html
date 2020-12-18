@@ -1,19 +1,97 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="PWA demo">
-    <meta name="theme-color" content="purple"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="PWA demo" />
+    <meta name="theme-color" content="purple" />
     <title>PWA demo</title>
-    <link href="style.css" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
     <script src="index.js" defer></script>
-    <link rel="apple-touch-icon" href="/pwa/icon/fox-icon.png">
-    <link rel="manifest" href="manifest.json?v=2">
+    <link rel="apple-touch-icon" href="/pwa/icon/fox-icon.png" />
+    <link rel="manifest" href="manifest.json?v=2" />
   </head>
   <body>
-    <button class="add-button" id="add-button">Add to home screen</button>
-    <button class="add-button" id="notifications">Request dummy notifications</button>
-    <img src="images/fox1.jpg" alt="a fox picture">
+    <div class="container">
+      <div class="row d-flex justify-content-center my-3">
+        <div class="col-md-10">
+          <img src="images/fox1.jpg" class="img-fluid" alt="a fox picture" />
+        </div>
+      </div>
+
+      <div class="text-center my-3">
+        <button type="button" class="btn btn-primary mb-2" id="add-button">
+          Add to home screen
+        </button>
+        <button type="button" class="btn btn-info mb-2" id="notifications">
+          Test notifications
+        </button>
+      </div>
+
+      <div class="row d-flex justify-content-center my-3">
+        <div class="col-md-10">
+          <p>
+            Some journeys can be summed up in a photo, a tweet, a souvenir. But
+            others are so filled with inner riches, they defy easy description.
+            For our guests, this has always posed a challenge: How to best
+            capture the world of luxury that is The Leela? For one visitor, it’s
+            a lobby – and a welcome that makes her feel like royalty. For
+            another, it’s discovering a hidden garden, guided only by the scent
+            of jasmine. To some, it is small touches that few others notice –
+            the warmth of a gesture, the extra care in the simplest dish.
+            Finding the right words for this distinctly Indian brand of luxury
+            is made all the more difficult because it is constantly being
+            refined and enhanced by each person we invite to join our staff.
+          </p>
+          <p>
+            From the start, we have been on a continuous journey to delight each
+            traveller who crosses our threshold. It is The Leela’s goal to
+            provide the most demanding guests with memorable, magical stays that
+            deliver the essence of India and discover a 5-Star experience found
+            only in India, and only at The Leela. In a span of 30 years, The
+            Leela Palaces, Hotels and Resorts has grown to comprise a
+            world-class collection of nine award-winning luxury hotels spread
+            across key destinations in India with many more on the anvil.
+          </p>
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-center my-3">
+        <div class="col-md-10">
+          <blockquote class="blockquote">
+            <p class="mb-0">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              posuere erat a ante.
+            </p>
+            <footer class="blockquote-footer">
+              Someone famous in <cite title="Source Title">Source Title</cite>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
