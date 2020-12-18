@@ -63,9 +63,12 @@ button.addEventListener('click', function(e) {
 
 // Setting up random Notification
 function randomNotification() {
-	const options = {
-		body: 'PWA Test Notification',
-		icon: 'icon/fox-icon.jpg'
-	}
-	let notif = new Notification('Awesome fox pictures', options);
+    // let notif = new Notification('Awesome fox pictures', options);
+    navigator.serviceWorker.ready.then(function(registration) {
+        registration.showNotification('PWA Demo', {
+            body: 'Notification with serviceworker',
+            icon: 'icon/fox-icon.jpg'
+        });
+      });
+
 };
